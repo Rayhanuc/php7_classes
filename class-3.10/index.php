@@ -34,7 +34,76 @@
 
 // php code start
 
+$fruits = array('apple', 'banana', 'orange', 'plum', 'dates', 'mango');
+$someFruits = array_slice($fruits,2);
+$someFruits2 = array_slice($fruits,2,2);
+$someFruits3 = array_slice($fruits,2,-1);
+$someFruits4 = array_slice($fruits,-3,2);
+$someFruits5 = array_slice($fruits,3,3,true);
 
+echo "<h5>full array</h5>";
+
+echo "<xmp>";
+print_r($fruits);
+echo "</xmp>";
+
+echo "<h5>array slice from element 3 position</h5>";
+echo "<xmp>";
+print_r($someFruits);
+echo "</xmp>";
+
+echo "<h5>2 element take from 3 position</h5>";
+echo "<xmp>";
+print_r($someFruits2);
+echo "</xmp>";
+
+echo "<h5>2 element take from after last 1 position</h5>";
+echo "<xmp>";
+print_r($someFruits3);
+echo "</xmp>";
+
+echo "<h5>Have taken element -3 position</h5>";
+echo "<xmp>";
+print_r($someFruits4);
+echo "</xmp>";
+
+echo "<h5>preserved actual arry key</h5>";
+echo "<xmp>";
+print_r($someFruits5);
+echo "</xmp>";
+
+echo "<br>";
+echo "<h5>Associative arrays</h5>"; 
+$random_array = [
+    "a" => 12,
+    "b" => 45,
+    "c" => 34,
+    "d" => 22,
+    "e" => 77,
+    "f" => 31,
+    12 => 78,
+    "g" => 25,
+    
+];
+
+echo "<h5>Full Associative arrays</h5>"; 
+echo "<xmp>";
+print_r($random_array);
+echo "</xmp>";
+
+// $random_arrayData = array_slice($random_array,3); //for normal way
+$random_arrayData = array_slice($random_array,3,null, true); //for preserved array key (null, true)
+
+echo "<xmp>";
+print_r($random_arrayData);
+echo "</xmp>";
+
+// $random_arrayData2 = array_slice($random_array,-4,3);
+$random_arrayData2 = array_slice($random_array,-4,3, true); //for preserved array key (null, true)
+
+echo "<xmp>";
+print_r($random_arrayData2);
+echo "</xmp>";
 
 // php end
 
