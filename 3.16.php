@@ -45,7 +45,7 @@ function square($n){
 array_walk($numbers,'square');
 
 
-echo "<h5>Min / Org array</h5>";
+echo "<h5>Main / Org array</h5>";
 
 echo "<xmp>";
 print_r($numbers);
@@ -125,7 +125,7 @@ function square($n){
 array_walk($numbers,'square');
 
 
-echo "<h5>Min / Org array</h5>";
+echo "<h5>Main / Org array</h5>";
 
 echo "<xmp>";
 print_r($numbers);
