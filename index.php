@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>PHP 7 Tutorial</title>
+    <meta charset="UTF-8">
+    <title>PHP 7 Tutorial</title>
 
-	<!-- bootstrap css link -->
+    <!-- bootstrap css link -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- font-awesome css link -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-	<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="header-menu">
@@ -207,6 +207,10 @@
                                 <?php echo "৩.১৫ - দুইটি ইনডেক্সড এবং অ্যাসোসিয়েটেড অ্যারের ডিফারেন্স এবং ইন্টারসেকশন"; ?>
                             </a>
                         </li>
+                        <li><a href="3.16.php" target="_blank">
+                                <?php echo "৩.১৬ - অ্যারের ইউটিলিটি ফাংশনস - খুবই জরুরী - ওয়াক, ম্যাপ এবং ফিল্টার"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
@@ -228,7 +232,7 @@
     </div>
 
 
-	<!-- jquery js link -->
+    <!-- jquery js link -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- bootstrap js link -->
     <script src="assets/js/bootstrap.min.js"></script>
