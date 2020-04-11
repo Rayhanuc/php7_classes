@@ -242,6 +242,10 @@
                                 <?php echo "৪.২ - বিভিন্ন ধরনের এইচটিটিপি ভার্ব যেমন GET POST PUT DELETE PATCH নিয়ে আলোচনা"; ?>
                             </a>
                         </li>
+                        <li><a href="class-4.3/index.php" target="_blank">
+                                <?php echo "৪.৩ - ইউজারের ইনপুট স্যানিটাইজ করা"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
