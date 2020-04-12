@@ -246,6 +246,10 @@
                                 <?php echo "৪.৩ - ইউজারের ইনপুট স্যানিটাইজ করা"; ?>
                             </a>
                         </li>
+                        <li><a href="class-4.4/index.php" target="_blank">
+                                <?php echo "4.4 HTML Input - Checkboxes and Group Checkboxes"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
