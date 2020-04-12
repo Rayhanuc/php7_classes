@@ -243,7 +243,7 @@
                             </a>
                         </li>
                         <li><a href="class-4.3/index.php" target="_blank">
-                                <?php echo "৪.৩ - ইউজারের ইনপুট স্যানিটাইজ করা"; ?>
+                                <?php echo "4.3  Sanitize user input"; ?>
                             </a>
                         </li>
                         <li><a href="class-4.4/index.php" target="_blank">
