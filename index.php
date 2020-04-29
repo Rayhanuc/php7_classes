@@ -250,6 +250,10 @@
                                 <?php echo "4.4 HTML Input - Checkboxes and Group Checkboxes"; ?>
                             </a>
                         </li>
+                        <li><a href="class-4.5/index.php" target="_blank">
+                                <?php echo "4.5 - Detailed discussion of select field"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
