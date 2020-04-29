@@ -254,6 +254,14 @@
                                 <?php echo "4.5 - Detailed discussion of select field"; ?>
                             </a>
                         </li>
+                        <li><a href="class-4.6/index.php" target="_blank">
+                                <?php echo "4.6 - How to Manage file uploads PHP"; ?>
+                            </a>
+                        </li>
+                        <li><a href="class-4.7/index.php" target="_blank">
+                                <?php echo "4.7 - File upload related php.ini settings"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
