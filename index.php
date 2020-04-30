@@ -233,13 +233,13 @@
                         </li>
                         
                         <!-- Chapter 4 link started from here -->
-                        <h1 class="chapter"><?php echo "৪ - এইচটিএমএল ওয়েবপেজ"; ?></h1>
+                        <h1 class="chapter"><?php echo "4 - HTML webpage"; ?></h1>
                         <li><a href="class-4.1/index.php" target="_blank">
-                                <?php echo "৪.১ - এইচটিএমএল ওয়েবপেজ নিয়ে ইন্ট্রো এবং পিএইচপির বিল্টইন ওয়েবসার্ভার ব্যবহার করা"; ?>
+                                <?php echo "4.1 - Intro to HTML webpages and using PHP's built-in webserver"; ?>
                             </a>
                         </li>
                         <li><a href="class-4.2/index.php" target="_blank">
-                                <?php echo "৪.২ - বিভিন্ন ধরনের এইচটিটিপি ভার্ব যেমন GET POST PUT DELETE PATCH নিয়ে আলোচনা"; ?>
+                                <?php echo "4.2 - Discuss different types of HTTP verbs such as GET POST PUT DELETE PATCH"; ?>
                             </a>
                         </li>
                         <li><a href="class-4.3/index.php" target="_blank">
