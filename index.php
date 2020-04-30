@@ -262,6 +262,10 @@
                                 <?php echo "4.7 - File upload related php.ini settings"; ?>
                             </a>
                         </li>
+                        <li><a href="class-4.8/index.php" target="_blank">
+                                <?php echo "4.8 - Multiple file upload"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>

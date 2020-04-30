@@ -4,13 +4,12 @@ $allowed_types = [
     'image/jpg',
     'image/jpeg'
 ];
-if (!empty($_FILES['photo'])) {
-
-    /*if ($_FILES['photo']['type'] == 'image/png' || $_FILES['photo']['type'] == 'image/jpg' || $_FILES['photo']['type'] == 'image/jpeg') {
-        move_uploaded_file($_FILES['photo']['tmp_name'], "files/".$_FILES['photo']['name']);
-    }*/
-    if (in_array($_FILES['photo']['type'],$allowed_types) !== false && $_FILES['photo']['size']<5*1024*1024) {
-        move_uploaded_file($_FILES['photo']['tmp_name'], "files/".$_FILES['photo']['name']);
+if (isset($_FILES['photo'])) {
+    $totalFiles = count($_FILES['photo']['name']);
+    for($i=0;$i<$totalFiles;$i++){
+        if (in_array($_FILES['photo']['type'][$i],$allowed_types) !== false && $_FILES['photo']['size'][$i]<5*1024*1024) {
+            move_uploaded_file($_FILES['photo']['tmp_name'][$i], "files/".$_FILES['photo']['name'][$i]);
+        }
     }
 }
 
@@ -23,7 +22,7 @@ if (!empty($_FILES['photo'])) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 4.6</title>
+        <title>PHP-7 Class 4.8</title>
 
 
         <!-- font-awesome css link -->
@@ -45,7 +44,7 @@ if (!empty($_FILES['photo'])) {
             <div class="container">
                 <div class="row">
                     <div class="column column-60 column-offset-20">
-                        <h1>Select/Dropdowns</h1>
+                        <h1>File Upload</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis exercitationem consequuntur sunt totam, repellat impedit architecto provident ut nesciunt, voluptatibus.</p>
 
                         <pre>
@@ -53,6 +52,14 @@ if (!empty($_FILES['photo'])) {
                                 <?php 
                                 print_r($_POST);
                                 print_r($_FILES);
+                                // $photo = '';
+
+
+                                // if(isset($_GET['photo']) && !empty($_GET['photo'])) {
+                                //     // $photo = htmlspecialchars($_REQUEST['photo']);
+                                //     $photo = filter_input(INPUT_POST, 'photo', FILTER_SANITIZE_STRING);
+                                // }
+                                
                                 ?>
                             </p>
                         </pre>
@@ -69,7 +76,10 @@ if (!empty($_FILES['photo'])) {
                             <input type="text" name="lname" id="lname">
 
                             <label for="photo" >Photo</label>
-                            <input type="file" name="photo" id="photo"><br/>
+                            <input type="file" name="photo[]" id="photo"><br/>
+                            <input type="file" name="photo[]" id="photo"><br/>
+                            <input type="file" name="photo[]" id="photo"><br/>
+                            <input type="file" name="photo[]" id="photo"><br/>
 
                             <button type="submit">Submit</button>
                         </form>
