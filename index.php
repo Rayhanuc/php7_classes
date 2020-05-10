@@ -270,7 +270,7 @@
 
                         <!-- Chapter 5 link started from here -->
                         <h1 class="chapter"><?php echo "5 - Data Scrambler"; ?></h1>
-                        <li><a href="class-5.1/index.php" target="_blank">
+                        <li><a href="class-5.1/scrambler.php" target="_blank">
                                 <?php echo "5 - Project Data Scrambler"; ?>
                             </a>
                         </li>
