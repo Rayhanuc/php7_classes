@@ -49,7 +49,7 @@ $fruits = ["mango","orange","Banana","apple","lemon","peach"];
                             // $sfruits = isset($_POST['fruits']) ? $_POST['fruits'] : array();
                             // $sfruits = $_POST['fruits'] ?? array(); //[]
                             $sfruits = filter_input(INPUT_POST,'fruits', FILTER_SANITIZE_STRING, FILTER_REQUIRE_ARRAY);
-                            if (count($sfruits)>0) {
+                            if (is_array($sfruits) && count($sfruits)>0) {
                                 echo "You have selected: ".join(", ",$sfruits);
                             }
                             
