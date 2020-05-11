@@ -288,6 +288,10 @@
                                 <?php echo "6.3 - Accessing the characters inside the string"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.4/index.php" target="_blank">
+                                <?php echo "6.4 - Reverse string"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
