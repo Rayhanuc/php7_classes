@@ -284,6 +284,10 @@
                                 <?php echo "6.2 - Introduction to ASCII code"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.3/index.php" target="_blank">
+                                <?php echo "6.3 - Accessing the characters inside the string"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
