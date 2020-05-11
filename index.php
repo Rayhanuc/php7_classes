@@ -280,6 +280,10 @@
                                 <?php echo "6.1 - How to write strings in PHP"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.2/index.php" target="_blank">
+                                <?php echo "6.2 - Introduction to ASCII code"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
