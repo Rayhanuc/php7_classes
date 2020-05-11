@@ -292,6 +292,10 @@
                                 <?php echo "6.4 - Reverse string"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.5/index.php" target="_blank">
+                                <?php echo "6.5 - Breaking a string into tokens - tokenization"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
