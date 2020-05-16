@@ -300,7 +300,10 @@
                                 <?php echo "6.6 - How search string in string"; ?>
                             </a>
                         </li>
-
+                        <li><a href="class-6.7/index.php" target="_blank">
+                                <?php echo "6.7 - Search and replace strings inside strings"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
