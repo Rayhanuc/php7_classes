@@ -296,6 +296,10 @@
                                 <?php echo "6.5 - Breaking a string into tokens - tokenization"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.6/index.php" target="_blank">
+                                <?php echo "6.6 - How search string in string"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
