@@ -34,7 +34,29 @@
 
 // php code start
 
+$string = "Quick Brown brown Fox fox jumps over the lazy dog";
+// If case insensitive can use str_replace();
+$replacedString = str_replace('brown', 'Brown', $string);
+echo $replacedString;
+echo PHP_EOL."<br/>";
+echo "<h4 style='color:green;'>Original String: </h4>".($string);
+echo PHP_EOL."<br/>";
+// If case sensitive can use str_replace();
+$replacedString2 = str_ireplace('brown', 'red', $string, $count);
+echo "case sensitive: {$replacedString2}" ;
+echo PHP_EOL."<br/>";
+echo "Total replacement word: {$count}";
 
+echo PHP_EOL."<br/>";
+// multiple replacement case insensitive
+$multireplacement = str_replace(array('brown','fox'), array('red','cat'), $string, $count);
+echo $multireplacement;
+
+echo PHP_EOL."<br/>";
+$string2 = "Quick Brown brown Fox fox jumps over the lazy dog";
+// multiple replacement case sensitive
+$multireplacement2 = str_ireplace(array('brown','fox','dog'), array('red','cat','hen'), $string, $count);
+echo "multiple replacement case sensitive: {$multireplacement2}";
 
 // php end
 
