@@ -304,6 +304,10 @@
                                 <?php echo "6.7 - Search and replace strings inside strings"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.8/index.php" target="_blank">
+                                <?php echo "6.8 - Discuss about string trimming"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
