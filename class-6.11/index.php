@@ -34,7 +34,26 @@
 
 // php code start
 
+$name = "Rayhan Uddin Chowdhury 01815666284 abc@def.com";
+$parts = sscanf($name, "%s %s %s %11d %s");
+echo "<xmp>";
+print_r($parts);
+echo "</xmp><br/>";
 
+// Another way of code writing
+$parts2 = sscanf($name, "%s %s %s %11d %s", $fname, $mname, $lname, $mobile, $email);
+echo "</xmp>";
+echo $fname."<br/>";
+echo $mname."<br/>";
+echo $lname."<br/>";
+echo $mobile."<br/>";
+echo $email."<br/>";
+
+$hexColor = "#FF2F44";
+sscanf($hexColor, "#%2x%2x%2x", $red, $green, $blue);
+echo $green."<br/>";
+echo $red."<br/>";
+echo $blue."<br/>";
 
 // php end
 
