@@ -308,6 +308,14 @@
                                 <?php echo "6.8 - Discuss about string trimming"; ?>
                             </a>
                         </li>
+                        <li><a href="class-6.9/index.php" target="_blank">
+                                <?php echo "6.9 - Word wrap in string."; ?>
+                            </a>
+                        </li>
+                        <li><a href="class-6.10/index.php" target="_blank">
+                                <?php echo "6.10 - Converting New Line Characters to HTML Line Breaks"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
