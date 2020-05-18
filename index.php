@@ -325,10 +325,10 @@
 
                         <!-- Chapter 6 link started from here -->
                         <h1 class="chapter"><?php echo "7 - File"; ?></h1>
-                        <!-- <li><a href="class-6.1/index.php" target="_blank">
-                                <?php //echo "6.1 - How to write strings in PHP"; ?>
+                        <li><a href="7.1/index.php" target="_blank">
+                                <?php echo "7.1 - Read data from files"; ?>
                             </a>
-                        </li> -->
+                        </li>
 
                     </ul>
                 </div>
