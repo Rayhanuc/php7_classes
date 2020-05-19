@@ -329,6 +329,10 @@
                                 <?php echo "7.1 - Read data from files"; ?>
                             </a>
                         </li>
+                        <li><a href="7.2/index.php" target="_blank">
+                                <?php echo "7.2 - Writing and appending data to a file"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
