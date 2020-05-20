@@ -333,6 +333,10 @@
                                 <?php echo "7.2 - Writing and appending data to a file"; ?>
                             </a>
                         </li>
+                        <li><a href="7.3/index.php" target="_blank">
+                                <?php echo "7.3 - Widget tips and is_writable function use"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
