@@ -34,7 +34,20 @@
 
 // php code start
 
+$filename = "D:/xampp/htdocs/php7_classes/7.4/assets/files/f4.txt";
+$fp = fopen($filename,'a+');
+fwrite($fp,"Uranus\n");
+rewind($fp);
+fwrite($fp,"Dhaka\n");
+$line = fgets($fp);
+echo $line;
 
+/*$line = fgets($fp);
+echo $line;
+fseek($fp, 0); // rewind($fp);
+fwrite($fp,"orld\n");
+fclose($fp);
+*/
 
 // php end
 
