@@ -337,6 +337,10 @@
                                 <?php echo "7.3 - Widget tips and is_writable function use"; ?>
                             </a>
                         </li>
+                        <li><a href="7.4/index.php" target="_blank">
+                                <?php echo "7.4 - Open files in different modes"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 7.3</title>
+        <title>PHP-7 Class 7.4</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>7.3 - Widget tips and is_writable function use</h3> \n<br/>";
+                        echo "<h3 class='text-center'>7.4 - Open files in different modes</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
@@ -34,18 +34,7 @@
 
 // php code start
 
-$filename = "D:/xampp/htdocs/php7_classes/7.3/assets/files/f3.txt";
-if(is_writable($filename)){
-    // $existingData = file_get_contents($filename);
-    $fp = fopen($filename, "w+");
-    // fwrite($fp, "Mercury\n");
-    // fwrite($fp, $existingData);
-    fwrite($fp, "Something\n");
-    fwrite($fp, "New\n");
-    fwrite($fp, "Dhaka\n");
 
-    fclose($fp);
-}
 
 // php end
 
@@ -64,19 +53,20 @@ if(is_writable($filename)){
                         
 // php code start
 
-$filename = "D:/xampp/htdocs/php7_classes/7.3/assets/files/f3.txt";
-if(is_writable($filename)){
-    // $existingData = file_get_contents($filename);
-    $fp = fopen($filename, "w+");
-    // fwrite($fp, "Mercury\n");
-    // fwrite($fp, $existingData);
-    fwrite($fp, "Something\n");
-    fwrite($fp, "New\n");
-    fwrite($fp, "Dhaka\n");
+$filename = "D:/xampp/htdocs/php7_classes/7.4/assets/files/f4.txt";
+$fp = fopen($filename,'a+');
+fwrite($fp,"Uranus\n");
+rewind($fp);
+fwrite($fp,"Dhaka\n");
+$line = fgets($fp);
+echo $line;
 
-    fclose($fp);
-}
-
+/*$line = fgets($fp);
+echo $line;
+fseek($fp, 0); // rewind($fp);
+fwrite($fp,"orld\n");
+fclose($fp);
+*/
 // php end
                         ?>
                     </div>
