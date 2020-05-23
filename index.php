@@ -341,6 +341,10 @@
                                 <?php echo "7.4 - Open files in different modes"; ?>
                             </a>
                         </li>
+                        <li><a href="7.5/index.php" target="_blank">
+                                <?php echo "7.5 -  file_put_contents And discuss race conditions and file locks"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
