@@ -349,6 +349,10 @@
                                 <?php echo "7.6 - Processing data in files in different ways"; ?>
                             </a>
                         </li>
+                        <li><a href="7.7/index.php" target="_blank">
+                                <?php echo "7.7 - Processing data using serialized arrays in the file"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
