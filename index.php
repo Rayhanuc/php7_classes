@@ -345,6 +345,10 @@
                                 <?php echo "7.5 -  file_put_contents And discuss race conditions and file locks"; ?>
                             </a>
                         </li>
+                        <li><a href="7.6/index.php" target="_blank">
+                                <?php echo "7.6 - Processing data in files in different ways"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
