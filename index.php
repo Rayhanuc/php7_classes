@@ -323,7 +323,7 @@
 
 
 
-                        <!-- Chapter 6 link started from here -->
+                        <!-- Chapter 7 link started from here -->
                         <h1 class="chapter"><?php echo "7 - File"; ?></h1>
                         <li><a href="7.1/index.php" target="_blank">
                                 <?php echo "7.1 - Read data from files"; ?>
@@ -351,6 +351,23 @@
                         </li>
                         <li><a href="7.7/index.php" target="_blank">
                                 <?php echo "7.7 - Processing data using serialized arrays in the file"; ?>
+                            </a>
+                        </li>
+                        <li><a href="7.8/index.php" target="_blank">
+                                <?php echo "7.8 - Processing Jason format data in the file"; ?>
+                            </a>
+                        </li>
+
+
+
+                        <!-- Chapter 8 link started from here -->
+                        <h1 class="chapter"><?php echo "8 - CRUD "; ?></h1>
+                        <li><a href="8.1/index.php" target="_blank">
+                                <?php echo "8.1 - Introduction - What to do in this project"; ?>
+                            </a>
+                        </li>
+                        <li><a href="8.2/index.php" target="_blank">
+                                <?php echo "8.2 - Data file seeding and report generation"; ?>
                             </a>
                         </li>
 
