@@ -370,6 +370,10 @@
                                 <?php echo "8.2 - Data file seeding and report generation"; ?>
                             </a>
                         </li>
+                        <li><a href="8.3/index.php" target="_blank">
+                                <?php echo "8.3 - New data add form, sanitation and data validation"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
