@@ -1,6 +1,6 @@
 <?php
 
-define('DB_NAME', "D:/xampp/htdocs/php7_classes/8.3/data/db.txt");
+define('DB_NAME', "D:/xampp/htdocs/php7_classes/8.4/data/db.txt");
 
 function seed(){
     $data = array(

@@ -374,6 +374,10 @@
                                 <?php echo "8.3 - New data add form, sanitation and data validation"; ?>
                             </a>
                         </li>
+                        <li><a href="8.4/index.php" target="_blank">
+                                <?php echo "8.4 - Adding data through data persistence makes the form a little more user friendly"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>

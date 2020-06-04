@@ -8,6 +8,9 @@ if ('seed' == $task) {
     $info = "Seeding is complite.";
 }
 
+$fname = '';
+$lname = '';
+$roll = '';
 if (isset($_POST['submit'])) {
     $fname = filter_input(INPUT_POST,'fname', FILTER_SANITIZE_STRING);
     $lname = filter_input(INPUT_POST,'lname', FILTER_SANITIZE_STRING);
@@ -17,8 +20,8 @@ if (isset($_POST['submit'])) {
         $result = addStudent($fname, $lname, $roll);
         if ($result) {
             header('location: index.php?task=report');
-        }else {
-            header('location: index.php?task=repor&error=1');
+        } else {
+            $error = 1;
         }
     }
 }
@@ -34,7 +37,7 @@ if (isset($_POST['submit'])) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 8.3</title>
+        <title>PHP-7 Class 8.4</title>
 
 
         <!-- font-awesome css link -->
@@ -95,13 +98,13 @@ if (isset($_POST['submit'])) {
                 <?php if('add' == $task) : ?>
                     <div class="row">
                         <div class="column column-60 column-offset-20">
-                            <form action="index.php?report" method="POST">
+                            <form action="index.php?task=add" method="POST">
                                 <label for="fname">First Name</label>
-                                <input type="text" name="fname" id="fname">
+                                <input type="text" name="fname" id="fname" value="<?php echo $fname; ?>">
                                 <label for="lname">Last Name</label>
-                                <input type="text" name="lname" id="lname">
-                                <label for="roll">Roll</label>
-                                <input type="number" name="roll" id="roll">
+                                <input type="text" name="lname" id="lname" value="<?php echo $lname; ?>">
+                                <label for="roll" >Roll</label>
+                                <input type="number" name="roll" id="roll" value="<?php echo $roll; ?>">
 
                                 <button type="submit" class="button-primary" name="submit">Save</button>
                             </form>
