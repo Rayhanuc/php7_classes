@@ -378,6 +378,10 @@
                                 <?php echo "8.4 - Adding data through data persistence makes the form a little more user friendly"; ?>
                             </a>
                         </li>
+                        <li><a href="8.5/index.php" target="_blank">
+                                <?php echo "8.5 - Current data editing form and data validation"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
