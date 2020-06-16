@@ -387,6 +387,14 @@
                             </a>
                         </li>
 
+
+                        <!-- Chapter 9 link started from here -->
+                        <h1 class="chapter"><?php echo "9 - Session "; ?></h1>
+                        <li><a href="9.2/session1.php" target="_blank">
+                                <?php echo "9.2 - Creating sessions and working with session data"; ?>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
