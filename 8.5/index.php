@@ -3,6 +3,14 @@ require_once "inc/functions.php";
 $info = '';
 $task = $_GET['task']??'report';
 $error = $_GET['error']??'0';
+
+if('delete' == $task) {
+    $id = filter_input(INPUT_GET,'id', FILTER_SANITIZE_STRING);
+    if($id>0) {
+        deleteStudent($id);
+    }
+}
+
 if ('seed' == $task) {
     seed();
     $info = "Seeding is complite.";
@@ -161,6 +169,6 @@ if (isset($_POST['submit'])) {
         <!-- bootstrap js link -->
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- main js link -->
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>

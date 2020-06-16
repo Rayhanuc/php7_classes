@@ -81,7 +81,7 @@ function generateReport(){
             <tr>
                 <td><?php printf('%s %s', $student['fname'],$student['lname']); ?></td>
                 <td><?php printf('%s', $student['roll']); ?></td>
-                <td><?php printf('<a style="color:green; font-weight: 700" href="index.php?task=edit&id=%s">Edit</a> | <a style="color:red; font-weight: 700" href="index.php?task=delete&id=%s">Delete</a>', $student['id'], $student['id']); ?></td>
+                <td><?php printf('<a style="color:green; font-weight: 700" href="index.php?task=edit&id=%s">Edit</a> | <a class="delete" style="color:red; font-weight: 700" href="index.php?task=delete&id=%s">Delete</a>', $student['id'], $student['id']); ?></td>
             </tr>
             <!-- http://localhost/php7_classes/8.2/index.php?task=report -->
 
@@ -103,7 +103,7 @@ function addStudent($fname, $lname, $roll){
         }
     }
     if(!$found) {
-        $newId = count($students)+1;
+        $newId = getNewId($students);
         $student = array(
             'id' => $newId,
             'fname' => $fname,
@@ -152,4 +152,25 @@ function updateStudent($id, $fname, $lname, $roll){
     }
 
     return false;
+}
+
+function deleteStudent($id){
+    $sirialziedData = file_get_contents(DB_NAME);
+    $students = unserialize($sirialziedData);
+    
+    foreach($students as $offset=>$student){
+        if($student['id'] == $id){
+            unset($students[$offset]);
+        }
+    }
+
+    unset($students[$id-1]);
+
+    $serializedData = serialize($students);
+    file_put_contents(DB_NAME, $serializedData, LOCK_EX);
+}
+
+function getNewId($students){
+    $maxId = max(array_column($students));
+    return $maxId+1;
 }
