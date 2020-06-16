@@ -382,6 +382,10 @@
                                 <?php echo "8.5 - Current data editing form and data validation"; ?>
                             </a>
                         </li>
+                        <li><a href="8.6/index.php" target="_blank">
+                                <?php echo "8.6 - Deleting data from files and fixes required in our code"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
