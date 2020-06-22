@@ -32,7 +32,7 @@
                 <div class="header-menu">
                     <ul>
                         <h1 class="chapter"><?php echo "Chapter 1: ১ - পিএইচপির প্রাথমিক বিষয়সমূহ"; ?></h1>
-                        
+
                         <li><a href="class-1/class-1.php" target="_blank"><?php echo "১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
                         <li><a href="class-2/class-2.php" target="_blank"><?php echo "১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
                         <li><a href="class-3/class-3.php" target="_blank"><?php echo "১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
@@ -58,86 +58,86 @@
                             </a>
                         </li>
                         <li><a href="class-21/class-21.php" target="_blank">
-                                <?php echo "১.২১ - টার্নারি অপারেটর নিয়ে কিছু জিনিস পরিষ্কার করা" ?> 
+                                <?php echo "১.২১ - টার্নারি অপারেটর নিয়ে কিছু জিনিস পরিষ্কার করা" ?>
                             </a>
                         </li>
                         <li><a href="class-22/class-22.php" target="_blank">
-                                <?php echo "১.২২ - বিভিন্ন রকম লুপের সাথে পরিচয়" ?> 
+                                <?php echo "১.২২ - বিভিন্ন রকম লুপের সাথে পরিচয়" ?>
                             </a>
                         </li>
                         <li><a href="class-23/class-23.php" target="_blank">
-                                <?php echo "১.২৩ - ফর লুপে মাল্টিপল স্টেপিং" ?> 
+                                <?php echo "১.২৩ - ফর লুপে মাল্টিপল স্টেপিং" ?>
                             </a>
                         </li>
                         <li><a href="class-24/class-24.php" target="_blank">
-                                <?php echo "১.২৪ - ফর লুপ দিয়ে কোন নাম্বারের ফ্যাক্টোরিয়াল বের করা" ?> 
+                                <?php echo "১.২৪ - ফর লুপ দিয়ে কোন নাম্বারের ফ্যাক্টোরিয়াল বের করা" ?>
                             </a>
                         </li>
                         <li><a href="class-25/class-25.php" target="_blank">
-                                <?php echo "১.২৫ - স্মার্ট কোডিং ভার্সেস ডাম্ব কোডিং - কেন নিজের কোড নিজে রিভিউ করা প্রয়োজন" ?> 
+                                <?php echo "১.২৫ - স্মার্ট কোডিং ভার্সেস ডাম্ব কোডিং - কেন নিজের কোড নিজে রিভিউ করা প্রয়োজন" ?>
                             </a>
                         </li>
                         <li><a href="class-26/class-26.php" target="_blank">
-                                <?php echo "১.২৬ - ফর লুপে মাল্টিপল স্টেপিং নিয়ে আরও কিছু কথা" ?> 
+                                <?php echo "১.২৬ - ফর লুপে মাল্টিপল স্টেপিং নিয়ে আরও কিছু কথা" ?>
                             </a>
                         </li>
                         <li><a href="class-27/class-27.php" target="_blank">
-                                <?php echo "১.২৭ - হোয়াইল লুপে ++ নিয়ে যেটা মাথায় রাখতে হবে" ; ?> 
+                                <?php echo "১.২৭ - হোয়াইল লুপে ++ নিয়ে যেটা মাথায় রাখতে হবে" ; ?>
                             </a>
                         </li>
                         <li><a href="class-28/class-28.php" target="_blank">
-                                <?php echo "১.২৮ - লুপের মাঝে কন্টিনিউ এবং ব্রেক" ; ?> 
+                                <?php echo "১.২৮ - লুপের মাঝে কন্টিনিউ এবং ব্রেক" ; ?>
                             </a>
                         </li>
                         <li><a href="class-29/class-29.php" target="_blank">
-                                <?php echo "১.২৯ - লুপ দিয়ে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?> 
+                                <?php echo "১.২৯ - লুপ দিয়ে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?>
                             </a>
                         </li>
                         <li><a href="class-30/class-30.php" target="_blank">
-                                <?php echo "১.৩০ - স্পেসশিপ অপারেটর" ; ?> 
+                                <?php echo "১.৩০ - স্পেসশিপ অপারেটর" ; ?>
                             </a>
                         </li>
                         <li><a href="class-31/class-31.php" target="_blank">
-                                <?php echo "১.৩১ - নাল কোলেস অপারেটর" ; ?> 
+                                <?php echo "১.৩১ - নাল কোলেস অপারেটর" ; ?>
                             </a>
-                        </li> 
+                        </li>
 
                         <!-- Chapter 2 link started from here -->
                         <h1 class="chapter"><?php echo "Chapter 2: ২ - ফাংশন"; ?></h1>
                         <li><a href="class-2.1/class-2.1.php" target="_blank">
-                                <?php echo "২.১ - ফাংশন কি এবং কিভাবে লিখতে হয়" ; ?> 
+                                <?php echo "২.১ - ফাংশন কি এবং কিভাবে লিখতে হয়" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.2/class-2.2.php" target="_blank">
-                                <?php echo "২.২ - ফাংশন প্যারামিটারের টাইপ হিন্টিং বা টাইপ চেক" ; ?> 
+                                <?php echo "২.২ - ফাংশন প্যারামিটারের টাইপ হিন্টিং বা টাইপ চেক" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.3/class-2.3.php" target="_blank">
-                                <?php echo "২.৩ - ফাংশন প্যারামিটারের ডিফল্ট ভ্যালু বা অপশনাল প্যারামিটার" ; ?> 
+                                <?php echo "২.৩ - ফাংশন প্যারামিটারের ডিফল্ট ভ্যালু বা অপশনাল প্যারামিটার" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.4/class-2.4.php" target="_blank">
-                                <?php echo "২.৪ - ফাংশনের রিটার্ন টাইপ ফিক্স করে দেয়া" ; ?> 
+                                <?php echo "২.৪ - ফাংশনের রিটার্ন টাইপ ফিক্স করে দেয়া" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.5/class-2.5.php" target="_blank">
-                                <?php echo "২.৫ - ফাংশনে আনলিমিটেড আর্গুমেন্ট অ্যাক্সেপ্ট করা" ; ?> 
+                                <?php echo "২.৫ - ফাংশনে আনলিমিটেড আর্গুমেন্ট অ্যাক্সেপ্ট করা" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.6/class-2.6.php" target="_blank">
-                                <?php echo "২.৬ - একটা বড় ফাংশনকে ছোট ফাংশনে ভাগ করা" ; ?> 
+                                <?php echo "২.৬ - একটা বড় ফাংশনকে ছোট ফাংশনে ভাগ করা" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.7/class-2.7.php" target="_blank">
-                                <?php echo "২.৭ - রিকার্সন এবং রিকার্সিভ ফাংশন" ; ?> 
+                                <?php echo "২.৭ - রিকার্সন এবং রিকার্সিভ ফাংশন" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.8/class-2.8.php" target="_blank">
-                                <?php echo "২.৮ - রিকার্সিভ ফাংশনের সাহায্যে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?> 
+                                <?php echo "২.৮ - রিকার্সিভ ফাংশনের সাহায্যে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.9/index.php" target="_blank">
-                                <?php echo "২.৯ - পিএইচপিতে ভ্যারিয়েবল স্কোপ (খুবই ইম্পর্ট্যান্ট)"; ?> 
+                                <?php echo "২.৯ - পিএইচপিতে ভ্যারিয়েবল স্কোপ (খুবই ইম্পর্ট্যান্ট)"; ?>
                             </a>
                         </li>
                         <li><a href="class-2.10/index.php" target="_blank">
@@ -231,7 +231,7 @@
                                 <?php echo "৩.২১ - অ্যাসোসিয়েটিভ অ্যারে শাফলিং এর সমস্যা এবং সমাধান"; ?>
                             </a>
                         </li>
-                        
+
                         <!-- Chapter 4 link started from here -->
                         <h1 class="chapter"><?php echo "4 - HTML webpage"; ?></h1>
                         <li><a href="class-4.1/index.php" target="_blank">
@@ -392,6 +392,10 @@
                         <h1 class="chapter"><?php echo "9 - Session "; ?></h1>
                         <li><a href="9.2/session1.php" target="_blank">
                                 <?php echo "9.2 - Creating sessions and working with session data"; ?>
+                            </a>
+                        </li>
+                        <li><a href="9.3/auth.php" target="_blank">
+                                <?php echo "9.3 - Simple user authentication with session, initial discussion with hash"; ?>
                             </a>
                         </li>
 
