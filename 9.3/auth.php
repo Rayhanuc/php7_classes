@@ -80,7 +80,7 @@ if (isset($_POST['logout'])) {
                         if (false == $_SESSION['loggedin']) :
                         ?>
                         <div class="height"></div>
-                        <form action="" method="POST">
+                        <form method="POST">
                             <label for="username">Username</label>
                             <input type="text" name="username" id="username">
                             <label for="password">Password</label>
