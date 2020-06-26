@@ -398,6 +398,10 @@
                                 <?php echo "9.3 - Simple user authentication with session, initial discussion with hash"; ?>
                             </a>
                         </li>
+                        <li><a href="9.4/index.php" target="_blank">
+                                <?php echo "9.4 - User authentication in our crude project"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
