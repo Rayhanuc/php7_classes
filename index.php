@@ -402,6 +402,10 @@
                                 <?php echo "9.4 - User authentication in our crude project"; ?>
                             </a>
                         </li>
+                        <li><a href="9.5/index.php" target="_blank">
+                                <?php echo "9.5 - Basic Role Management (Access Control)"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
