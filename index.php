@@ -406,6 +406,10 @@
                                 <?php echo "9.5 - Basic Role Management (Access Control)"; ?>
                             </a>
                         </li>
+                        <li><a href="9.8/cookie.php" target="_blank">
+                                <?php echo "9.8 - Details about cookies"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
