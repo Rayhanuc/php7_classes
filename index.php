@@ -423,6 +423,15 @@
                                 <?php echo "10.2 - Working with date format in PHP"; ?>
                             </a>
                         </li>
+                        <li><a href="10.3/index.php" target="_blank">
+                                <?php echo "10.3 - Create a Unix timestamp for any day month month year and create a GMT timestamp"; ?>
+                            </a>
+                        </li>
+                        <li><a href="10.4/index.php" target="_blank">
+                                <?php echo "10.4 - Creating a UNIX timestamp from a string (date parsing) and finding a human readable difference between two dates
+                                "; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
