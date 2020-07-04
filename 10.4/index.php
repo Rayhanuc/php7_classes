@@ -35,7 +35,14 @@
 
 // php code start
 
+echo mktime(0,0,0,12,12,1980)."<br>";
+echo strtotime("12 December, 1980")."<br>";
+echo time()."<br>";
+echo strtotime("now")."<br>";
+echo strtotime("+3days")."<br>";
+echo (strtotime("+2weeks 7days 24 hours 86400 seconds")-strtotime("now"))/(86400)."<br>"; // 1 day = 86400
 
+echo date('H:i:s A',strtotime('13 August 2005 11:12:05 PM'));
 
 // php end
 
