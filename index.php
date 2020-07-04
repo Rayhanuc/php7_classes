@@ -411,6 +411,19 @@
                             </a>
                         </li>
 
+
+
+                        <!-- Chapter 9 link started from here -->
+                        <h1 class="chapter"><?php echo "10 - Date and time "; ?></h1>
+                        <li><a href="10.1/index.php" target="_blank">
+                                <?php echo "10.1 - Working with time in PHP, microtime and benchmarking"; ?>
+                            </a>
+                        </li>
+                        <li><a href="10.2/index.php" target="_blank">
+                                <?php echo "10.2 - Working with date format in PHP"; ?>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
