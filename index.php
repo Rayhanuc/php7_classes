@@ -413,7 +413,7 @@
 
 
 
-                        <!-- Chapter 9 link started from here -->
+                        <!-- Chapter 10 link started from here -->
                         <h1 class="chapter"><?php echo "10 - Date and time "; ?></h1>
                         <li><a href="10.1/index.php" target="_blank">
                                 <?php echo "10.1 - Working with time in PHP, microtime and benchmarking"; ?>
@@ -430,6 +430,19 @@
                         <li><a href="10.4/index.php" target="_blank">
                                 <?php echo "10.4 - Creating a UNIX timestamp from a string (date parsing) and finding a human readable difference between two dates
                                 "; ?>
+                            </a>
+                        </li>
+
+
+
+                        <!-- Chapter 11 link started from here -->
+                        <h1 class="chapter"><?php echo "11 - OOP foundation "; ?></h1>
+                        <li><a href="11.2/index.php" target="_blank">
+                                <?php echo "11.2 -Class, Object, Method and Property"; ?>
+                            </a>
+                        </li>
+                        <li><a href="11.3/index.php" target="_blank">
+                                <?php echo "11.3 - The class constructor method that runs automatically when an object is created from the class"; ?>
                             </a>
                         </li>
 
