@@ -445,6 +445,10 @@
                                 <?php echo "11.3 - The class constructor method that runs automatically when an object is created from the class"; ?>
                             </a>
                         </li>
+                        <li><a href="11.4/index.php" target="_blank">
+                                <?php echo "11.4 - Public and private methods and properties of the class"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
