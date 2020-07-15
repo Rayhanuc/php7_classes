@@ -449,6 +449,10 @@
                                 <?php echo "11.4 - Public and private methods and properties of the class"; ?>
                             </a>
                         </li>
+                        <li><a href="11.5/index.php" target="_blank">
+                                <?php echo "11.5 - Writing a real life useful class"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
