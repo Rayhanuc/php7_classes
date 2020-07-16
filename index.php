@@ -465,6 +465,10 @@
                                 <?php echo "11.8 - More examples of inheritance"; ?>
                             </a>
                         </li>
+                        <li><a href="11.9/index.php" target="_blank">
+                                <?php echo "11.9 - Abstract Class and Abstract Method in OOP"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
