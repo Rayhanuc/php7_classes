@@ -457,6 +457,10 @@
                                 <?php echo "11.6 - Discuss about Inheritance"; ?>
                             </a>
                         </li>
+                        <li><a href="11.7/index.php" target="_blank">
+                                <?php echo "11.7 - Discuss parent and child class scope"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
