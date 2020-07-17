@@ -469,8 +469,12 @@
                                 <?php echo "11.9 - Abstract Class and Abstract Method in OOP"; ?>
                             </a>
                         </li>
-                        <li><a href="11.9/index.php" target="_blank">
+                        <li><a href="11.10/index.php" target="_blank">
                                 <?php echo "11.10 - Use of Inheritance Final Keywords"; ?>
+                            </a>
+                        </li>
+                        <li><a href="11.11/index.php" target="_blank">
+                                <?php echo "11.11 - How to write better code with OOP by force"; ?>
                             </a>
                         </li>
 
