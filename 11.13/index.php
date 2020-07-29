@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 11.12</title>
+        <title>PHP-7 Class 11.13</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>11.12 - Discuss the interface</h3> \n<br/>";
+                        echo "<h3 class='text-center'>11.13 - Static methods and properties of the class</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
@@ -34,45 +34,34 @@
 
 // php code start
 
-interface Baseanimal {
-    public function isAlive();
-    function canEat($param1, $param2);
-    function breed();
-}
-
-class Animal implements BaseAnimal {
-    function isAlive(){}
-    function canEat($param1, $param2){}
-    function breed(){}
-}
-
-interface BaseHuman extends BaseAnimal {
-    public function canTalk();
-}
-
-
-$cat = new Animal();
-echo $cat instanceof Human;
-
-
-
-abstract Class AbstractHuman implements BaseHuman{
-    abstract public function run();
-    function eat(){
-        echo "I am Eating";
+class MathCalculator{
+    private $number;
+    static $name;
+    static function fibonacci($n){
+        echo self::$name."\n";
+        self::doSomething();
+        echo "Fibonacci series up to {$n}\n<br>";
     }
+
+    static function doSomething(){
+        echo "Doing something\n";
+    }
+
+    function factorial($n){
+        self::$name = "ABCD";
+        self::doSomething();
+        $this->doSomething();
+        $this->number = 12;
+        echo "Calculating factorial of {$n}\n<br>";
+    }
+
 }
 
-class Human extends AbstractHuman{
-    function isAlive(){}
-    function canEat($param1, $param2){}
-    function breed(){}
-    function canTalk(){}
-    function run(){}
-}
+$mathc = new MathCalculator();
+$mathc->factorial(8);
 
-$h = new Human();
-// echo $h instanceof BaseHuman;
+MathCalculator::fibonacci(7);
+echo MathCalculator::$name;
 
 // php end
 
@@ -91,45 +80,34 @@ $h = new Human();
                         
 // php code start
 
-interface Baseanimal {
-    public function isAlive();
-    function canEat($param1, $param2);
-    function breed();
-}
-
-class Animal implements BaseAnimal {
-    function isAlive(){}
-    function canEat($param1, $param2){}
-    function breed(){}
-}
-
-interface BaseHuman extends BaseAnimal {
-    public function canTalk();
-}
-
-
-$cat = new Animal();
-echo $cat instanceof Human;
-
-
-
-abstract Class AbstractHuman implements BaseHuman{
-    abstract public function run();
-    function eat(){
-        echo "I am Eating";
+class MathCalculator{
+    private $number;
+    static $name;
+    static function fibonacci($n){
+        echo self::$name."\n";
+        self::doSomething();
+        echo "Fibonacci series up to {$n}\n<br>";
     }
+
+    static function doSomething(){
+        echo "Doing something\n<br>";
+    }
+
+    function factorial($n){
+        self::$name = "ABCD<br>";
+        self::doSomething();
+        $this->doSomething();
+        $this->number = 12;
+        echo "Calculating factorial of {$n}\n<br>";
+    }
+
 }
 
-class Human extends AbstractHuman{
-    function isAlive(){}
-    function canEat($param1, $param2){}
-    function breed(){}
-    function canTalk(){}
-    function run(){}
-}
+$mathc = new MathCalculator();
+$mathc->factorial(8);
 
-$h = new Human();
-// echo $h instanceof BaseHuman;
+MathCalculator::fibonacci(7);
+echo MathCalculator::$name;
 
 // php end
                         ?>

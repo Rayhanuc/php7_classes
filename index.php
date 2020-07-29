@@ -481,6 +481,10 @@
                                 <?php echo "11.12 - Discuss the interface"; ?>
                             </a>
                         </li>
+                        <li><a href="11.13/index.php" target="_blank">
+                                <?php echo "11.13 - Static methods and properties of the class"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
