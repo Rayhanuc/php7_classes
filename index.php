@@ -477,6 +477,10 @@
                                 <?php echo "11.11 - How to write better code with OOP by force"; ?>
                             </a>
                         </li>
+                        <li><a href="11.12/index.php" target="_blank">
+                                <?php echo "11.12 - Discuss the interface"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
