@@ -72,7 +72,7 @@ echo B::$name;
 
 
 class A{
-    protected static $name;
+    static $name;
     static function sayHi(){
         self::$name = "Hello\n<br>";
         echo "Hi From A\n<br>";
