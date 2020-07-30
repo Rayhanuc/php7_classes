@@ -493,6 +493,10 @@
                                 <?php echo "11.15 - Discuss the static scope"; ?>
                             </a>
                         </li>
+                        <li><a href="11.16/index.php" target="_blank">
+                                <?php echo "11.16 - Creating constants in class"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
