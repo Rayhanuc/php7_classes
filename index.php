@@ -489,6 +489,10 @@
                                 <?php echo "11.14 - Discuss Static Method Over Ride in Child Class"; ?>
                             </a>
                         </li>
+                        <li><a href="11.15/index.php" target="_blank">
+                                <?php echo "11.15 - Discuss the static scope"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
