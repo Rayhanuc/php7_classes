@@ -501,6 +501,10 @@
                                 <?php echo "11.17 - Magic methods in PHP class"; ?>
                             </a>
                         </li>
+                        <li><a href="11.18/index.php" target="_blank">
+                                <?php echo "11.18 - A practical example of an interface"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
