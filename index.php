@@ -505,6 +505,10 @@
                                 <?php echo "11.18 - A practical example of an interface"; ?>
                             </a>
                         </li>
+                        <li><a href="11.19/index.php" target="_blank">
+                                <?php echo "11.19 - Countable interface - quite funny"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
