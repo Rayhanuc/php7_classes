@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 11.16</title>
+        <title>PHP-7 Class 11.17</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>11.16 - Creating constants in class</h3> \n<br/>";
+                        echo "<h3 class='text-center'>11.17 - Magic methods in PHP class</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
@@ -34,20 +34,57 @@
 
 // php code start
 
-define('OK', 123);
-
-class MyClass{
-    const CITY = "Dhaka\n<br>";
-
-    function sayHi(){
-        echo "Hi From ".$this::CITY;
+class Student{
+    private $name;
+    private $age;
+    private $class;
+    function __construct($name='', $age ='',$class = ''){
+        $this->name = $name;
+        $this->age = $age;
+        $this->class = $class;
     }
+
+    public function __get($prop){
+        return $this->$prop;
+    }
+
+    public function __set($prop, $value){
+        $this->$prop = strtoupper($value);
+    }
+
+    /*function getName() {
+        return $this->name;
+    }
+
+    function setName($name) {
+        $this->name = $name;
+    }
+
+    function getAge() {
+        return $this->age;
+    }
+
+    function setAge($age) {
+        $this->age = $age;
+    }
+
+    function getClass() {
+        return $this->class;
+    }
+
+    function setClass($class) {
+        $this->class = $class;
+    }*/
 }
 
-$m = new MyClass();
-$m->sayHi();
+$R = new Student('Rahim','16','10');
+// $R = new Student();
+// $R->setName('Rahim');
+// echo $R->getAge();
 
-// echo MyClass::CITY;
+$R->name = "Kamal";
+echo $R->name;
+
 
 // php end
 
@@ -67,20 +104,56 @@ $m->sayHi();
 // php code start
 
 
-define('OK', 123);
-
-class MyClass{
-    const CITY = "Dhaka\n<br>";
-
-    function sayHi(){
-        echo "Hi From ".$this::CITY;
+class Student{
+    private $name;
+    private $age;
+    private $class;
+    function __construct($name='', $age ='',$class = ''){
+        $this->name = $name;
+        $this->age = $age;
+        $this->class = $class;
     }
+
+    public function __get($prop){
+        return $this->$prop;
+    }
+
+    public function __set($prop, $value){
+        $this->$prop = strtoupper($value);
+    }
+
+    /*function getName() {
+        return $this->name;
+    }
+
+    function setName($name) {
+        $this->name = $name;
+    }
+
+    function getAge() {
+        return $this->age;
+    }
+
+    function setAge($age) {
+        $this->age = $age;
+    }
+
+    function getClass() {
+        return $this->class;
+    }
+
+    function setClass($class) {
+        $this->class = $class;
+    }*/
 }
 
-$m = new MyClass();
-$m->sayHi();
+$R = new Student('Rahim','16','10');
+// $R = new Student();
+// $R->setName('Rahim');
+// echo $R->getAge();
 
-// echo MyClass::CITY;
+$R->name = "Kamal";
+echo $R->name;
 
 // php end
                         ?>

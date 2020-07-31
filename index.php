@@ -497,7 +497,10 @@
                                 <?php echo "11.16 - Creating constants in class"; ?>
                             </a>
                         </li>
-
+                        <li><a href="11.17/index.php" target="_blank">
+                                <?php echo "11.17 - Magic methods in PHP class"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
