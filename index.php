@@ -524,6 +524,11 @@
                                 <?php echo "11.22 - Compare objects"; ?>
                             </a>
                         </li>
+                        <li>
+                            <a href="11.23/index.php" target="_blank">
+                                <?php echo "11.23 - Detailed discussion on early and late binding"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
