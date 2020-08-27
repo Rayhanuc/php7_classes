@@ -509,6 +509,10 @@
                                 <?php echo "11.19 - Countable interface - quite funny"; ?>
                             </a>
                         </li>
+                        <li><a href="11.20/index.php" target="_blank">
+                                <?php echo "11.20 - PHP object cloning"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
