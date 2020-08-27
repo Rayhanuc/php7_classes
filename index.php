@@ -519,6 +519,11 @@
                                 <?php echo "11.21 - Conversion from object to string"; ?>
                             </a>
                         </li>
+                        <li>
+                            <a href="11.22/index.php" target="_blank">
+                                <?php echo "11.22 - Compare objects"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
