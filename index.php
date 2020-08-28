@@ -534,6 +534,11 @@
                                 <?php echo "11.24 - Discusses property overloading and __isset () and __unset () magic methods"; ?>
                             </a>
                         </li>
+                        <li>
+                            <a href="11.25/index.php" target="_blank">
+                                <?php echo "11.25 - Discuss method overloading using __call and __callStatic Magic Method"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
