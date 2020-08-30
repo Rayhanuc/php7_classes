@@ -539,6 +539,11 @@
                                 <?php echo "11.25 - Discuss method overloading using __call and __callStatic Magic Method"; ?>
                             </a>
                         </li>
+                        <li>
+                            <a href="11.26/index.php" target="_blank">
+                                <?php echo "11.26 - Class file auto-loading"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
