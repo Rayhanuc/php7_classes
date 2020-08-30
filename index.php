@@ -540,8 +540,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="11.26/index.php" target="_blank">
+                            <a href="11.26/advanced/autoloading/main.php" target="_blank">
                                 <?php echo "11.26 - Class file auto-loading"; ?>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="11.27/index.php" target="_blank">
+                                <?php echo "11.27 - Discuss namespace"; ?>
                             </a>
                         </li>
                     </ul>
