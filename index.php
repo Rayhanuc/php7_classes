@@ -554,6 +554,15 @@
                                 <?php echo "11.28 - Sorting and auto-loading file structures of large projects according to namespace"; ?>
                             </a>
                         </li>
+
+
+
+                        <!-- Chapter 12 link started from here -->
+                        <h1 class="chapter"><?php echo "12 - Exception "; ?></h1>
+                        <li><a href="12.exception/1/e1.php" target="_blank">
+                                <?php echo "12.1 - Discuss about Exception "; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
