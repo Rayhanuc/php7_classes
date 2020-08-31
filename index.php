@@ -545,8 +545,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="11.27/index.php" target="_blank">
+                            <a href="11.27/main.php" target="_blank">
                                 <?php echo "11.27 - Discuss namespace"; ?>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="11.28/main.php" target="_blank">
+                                <?php echo "11.28 - Sorting and auto-loading file structures of large projects according to namespace"; ?>
                             </a>
                         </li>
                     </ul>
