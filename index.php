@@ -567,6 +567,10 @@
                                 <?php echo "12.2 - Custom Exception"; ?>
                             </a>
                         </li>
+                        <li><a href="12.exception/3/e3.php" target="_blank">
+                                <?php echo "12.3 - A little more detail example with the exception"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
