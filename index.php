@@ -563,6 +563,10 @@
                                 <?php echo "12.1 - Discuss about Exception "; ?>
                             </a>
                         </li>
+                        <li><a href="12.exception/2/e2.php" target="_blank">
+                                <?php echo "12.2 - Custom Exception"; ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
