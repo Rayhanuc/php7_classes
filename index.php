@@ -577,6 +577,14 @@
                                 <?php echo "13.1 - Trait Introduction and Benefits and Multiple Traits "; ?>
                             </a>
                         </li>
+                        <li><a href="13.trait/2/t2.php" target="_blank">
+                                <?php echo "13.2 - Order / Presidency of Trait Methods"; ?>
+                            </a>
+                        </li>
+                        <li><a href="13.trait/3/t3.php" target="_blank">
+                                <?php echo "13.3 - Conflict Resolution of Trait Methods (Creating Alias)"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
