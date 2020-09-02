@@ -585,6 +585,10 @@
                                 <?php echo "13.3 - Conflict Resolution of Trait Methods (Creating Alias)"; ?>
                             </a>
                         </li>
+                        <li><a href="13.trait/4/t4.php" target="_blank">
+                                <?php echo "13.4 - Abstract and Static Methods and Properties of Trait"; ?>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
