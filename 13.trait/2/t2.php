@@ -16,7 +16,7 @@ class SomeClass{
 }
 
 class NumberSeries extends SomeClass{
-    use NumberSeriesOne/* , NumberSeriesTwo */;    
+    use NumberSeriesOne;    
 }
 
 
