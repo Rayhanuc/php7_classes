@@ -555,8 +555,6 @@
                             </a>
                         </li>
 
-
-
                         <!-- Chapter 12 link started from here -->
                         <h1 class="chapter"><?php echo "12 - Exception "; ?></h1>
                         <li><a href="12.exception/1/e1.php" target="_blank">
@@ -571,6 +569,15 @@
                                 <?php echo "12.3 - A little more detail example with the exception"; ?>
                             </a>
                         </li>
+
+
+                        <!-- Chapter 13 link started from here -->
+                        <h1 class="chapter"><?php echo "13 - Trait "; ?></h1>
+                        <li><a href="13.trait/1/t1.php" target="_blank">
+                                <?php echo "13.1 - Trait Introduction and Benefits and Multiple Traits "; ?>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
