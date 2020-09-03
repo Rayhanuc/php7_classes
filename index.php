@@ -590,6 +590,15 @@
                             </a>
                         </li>
 
+
+                        <!-- Chapter 14 link started from here -->
+                        <h1 class="chapter"><?php echo "14 - File system and directory"; ?></h1>
+                        <li><a href="14.file-system-and-directory/1/f1.php" target="_blank">
+                                <?php echo "14.1 - Discusses file systems and directory functions"; ?>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
