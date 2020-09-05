@@ -597,6 +597,10 @@
                                 <?php echo "14.1 - Discusses file systems and directory functions"; ?>
                             </a>
                         </li>
+                        <li><a href="14.file-system-and-directory/2/f4.php" target="_blank">
+                                <?php echo "14.2 - Create directories or folders, delete directories with empty directories and files"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
