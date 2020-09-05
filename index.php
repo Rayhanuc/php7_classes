@@ -601,6 +601,10 @@
                                 <?php echo "14.2 - Create directories or folders, delete directories with empty directories and files"; ?>
                             </a>
                         </li>
+                        <li><a href="14.file-system-and-directory/3/f5.php" target="_blank">
+                                <?php echo "14.3 - Deleting a directory and all files and folders inside in a recursive manner"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
