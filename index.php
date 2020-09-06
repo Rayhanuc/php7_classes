@@ -605,6 +605,10 @@
                                 <?php echo "14.3 - Deleting a directory and all files and folders inside in a recursive manner"; ?>
                             </a>
                         </li>
+                        <li><a href="14.file-system-and-directory/4/f6.php" target="_blank">
+                                <?php echo "14.4 - Detailed discussion of file and folder permissions"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
