@@ -611,6 +611,29 @@
                         </li>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- Chapter 20 link started from here -->
+                        <h1 class="chapter"><?php echo "20 - Tasks"; ?></h1>
+                        <li><a href="20.tasks/1/index.php" target="_blank">
+                                <?php echo "20.1 - Project Introduction"; ?>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
