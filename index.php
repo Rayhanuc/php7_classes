@@ -609,6 +609,10 @@
                                 <?php echo "14.4 - Detailed discussion of file and folder permissions"; ?>
                             </a>
                         </li>
+                        <li><a href="14.file-system-and-directory/5/f7.php" target="_blank">
+                                <?php echo "14.5 - View the contents of any directory using the Directory Iterator class"; ?>
+                            </a>
+                        </li>
 
 
 
@@ -630,6 +634,9 @@
                         <h1 class="chapter"><?php echo "20 - Tasks"; ?></h1>
                         <li><a href="20.tasks/1/index.php" target="_blank">
                                 <?php echo "20.1 - Project Introduction"; ?>
+                            </a>
+                        </li><li><a href="20.tasks/3/index.php" target="_blank">
+                                <?php echo "20.3 - Connect to database using PHP and run database queries"; ?>
                             </a>
                         </li>
 
