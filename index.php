@@ -641,6 +641,15 @@
                         </li>
 
 
+
+                        <!-- Chapter 21 link started from here -->
+                        <h1 class="chapter"><?php echo "20 - Vocabulary"; ?></h1>
+                        <li><a href="21.voc/3/index.php" target="_blank">
+                                <?php echo "21.3 - User registration"; ?>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
