@@ -656,6 +656,10 @@
                                 <?php echo "21.5 - User login session management"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/6/index.php" target="_blank">
+                                <?php echo "21.6 - Menu Click Event Handler"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
