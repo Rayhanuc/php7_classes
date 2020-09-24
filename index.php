@@ -648,6 +648,14 @@
                                 <?php echo "21.3 - User registration"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/4/index.php" target="_blank">
+                                <?php echo "21.4 - User login"; ?>
+                            </a>
+                        </li>
+                        <li><a href="21.voc/5/index.php" target="_blank">
+                                <?php echo "21.5 - User login session management"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
