@@ -668,8 +668,12 @@
                                 <?php echo "21.8 - Display all database records for specific users"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/9/index.php" target="_blank">
+                                <?php echo "21.9 - Searching or filtering data in a table row with a single character"; ?>
+                            </a>
+                        </li>
 
-
+                        
                     </ul>
                 </div>
             </div>
