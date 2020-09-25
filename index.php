@@ -672,8 +672,12 @@
                                 <?php echo "21.9 - Searching or filtering data in a table row with a single character"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/10/index.php" target="_blank">
+                                <?php echo "21.10 - Implement different types of search functions"; ?>
+                            </a>
+                        </li>
 
-                        
+
                     </ul>
                 </div>
             </div>
