@@ -660,6 +660,10 @@
                                 <?php echo "21.6 - Menu Click Event Handler"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/7/index.php" target="_blank">
+                                <?php echo "21.7 - Adding new records to the database with the correct Unicode characters"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
