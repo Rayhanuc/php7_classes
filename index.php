@@ -664,6 +664,10 @@
                                 <?php echo "21.7 - Adding new records to the database with the correct Unicode characters"; ?>
                             </a>
                         </li>
+                        <li><a href="21.voc/8/index.php" target="_blank">
+                                <?php echo "21.8 - Display all database records for specific users"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
