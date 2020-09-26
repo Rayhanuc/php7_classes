@@ -699,6 +699,10 @@
                                 <?php echo "25.4 - Ajax sending PUT and DELETE requests"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/5/data.html" target="_blank">
+                                <?php echo "25.5 - Creating a query string from the Jason object"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
