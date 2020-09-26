@@ -695,6 +695,10 @@
                                 <?php echo "25.3 - Using Ajax to send HTTP POST requests from browser to server side"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/4/data.html" target="_blank">
+                                <?php echo "25.4 - Ajax sending PUT and DELETE requests"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>

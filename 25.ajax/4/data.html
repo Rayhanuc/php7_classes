@@ -41,11 +41,11 @@
 
   	function sendData(){
   		let xhr = new XMLHttpRequest();
-  		xhr.open("POST","data.php",true);
-      xhr.setRequestHeader(
+  		xhr.open("PUT","data.php?id=12&name=NewName&email=NewEmail",true);
+      /*XHR.setRequestHeader(
         "Content-Type",
-        "application/x-www-form-urlencoded"
-      )
+        "application/x-www-from-urlencoded"
+      );*/
   		xhr.onreadystatechange = function(){
   			if (this.readyState===4 && this.status===200) {
   				document.getElementById('result').innerHTML = this.responseText;
@@ -55,7 +55,7 @@
   			}
   		}
 
-  		xhr.send("foo=bar&hello=world");
+  		xhr.send();
   	}
 
 
