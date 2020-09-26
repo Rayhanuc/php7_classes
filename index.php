@@ -687,6 +687,10 @@
                                 <?php echo "25.1 - Ajax Introduction"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/2/data.html" target="_blank">
+                                <?php echo "25.2 - Using Ajax to send HTTP GET requests from browser to server side"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
