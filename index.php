@@ -703,6 +703,10 @@
                                 <?php echo "25.5 - Creating a query string from the Jason object"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/6/data.html" target="_blank">
+                                <?php echo "25.6 - Create a query string with the URLSearchParams object"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
