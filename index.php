@@ -678,6 +678,17 @@
                         </li>
 
 
+
+
+
+                        <!-- Chapter 25 link started from here -->
+                        <h1 class="chapter"><?php echo "25 - Ajax"; ?></h1>
+                        <li><a href="25.ajax/1/index.php" target="_blank">
+                                <?php echo "25.1 - Ajax Introduction"; ?>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
