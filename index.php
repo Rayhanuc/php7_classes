@@ -691,6 +691,10 @@
                                 <?php echo "25.2 - Using Ajax to send HTTP GET requests from browser to server side"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/3/data.html" target="_blank">
+                                <?php echo "25.3 - Using Ajax to send HTTP POST requests from browser to server side"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
