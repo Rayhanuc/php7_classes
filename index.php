@@ -707,6 +707,10 @@
                                 <?php echo "25.6 - Create a query string with the URLSearchParams object"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/7/data.html" target="_blank">
+                                <?php echo "25.7 - Calling Ajax with JQuery"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
