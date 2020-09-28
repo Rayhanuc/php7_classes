@@ -725,6 +725,10 @@
                                 <?php echo "26.1 - Encoding data with Json contact and json_encode"; ?>
                             </a>
                         </li>
+                        <li><a href="26.json/2/json.php" target="_blank">
+                                <?php echo "26.2 - Exchanging JavaScript data from PHP with the help of Basin"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
