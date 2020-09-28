@@ -711,6 +711,10 @@
                                 <?php echo "25.7 - Calling Ajax with JQuery"; ?>
                             </a>
                         </li>
+                        <li><a href="25.ajax/8/data.html" target="_blank">
+                                <?php echo "25.8 - Sending form data with JQuery and Ajax"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
