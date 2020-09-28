@@ -717,6 +717,16 @@
                         </li>
 
 
+
+
+                        <!-- Chapter 26 link started from here -->
+                        <h1 class="chapter"><?php echo "25 - Json"; ?></h1>
+                        <li><a href="26.json/1/json.php" target="_blank">
+                                <?php echo "26.1 - Encoding data with Json contact and json_encode"; ?>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
