@@ -737,6 +737,10 @@
                                 <?php echo "26.4 - Decoding Jason data into PHP objects and arrays"; ?>
                             </a>
                         </li>
+                        <li><a href="26.json/5/json.php" target="_blank">
+                                <?php echo "26.5 - Working with Unicode data"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
