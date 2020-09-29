@@ -733,6 +733,10 @@
                                 <?php echo "26.3 - Encoding Jason data from a PHP object"; ?>
                             </a>
                         </li>
+                        <li><a href="26.json/4/json.php" target="_blank">
+                                <?php echo "26.4 - Decoding Jason data into PHP objects and arrays"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
