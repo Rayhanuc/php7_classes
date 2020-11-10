@@ -624,7 +624,12 @@
 
 
 
-
+                        <!-- Chapter 19 link started from here -->
+                        <h1 class="chapter"><?php echo "19 - Design Pattern"; ?></h1>
+                        <li><a href="19.designpattern/2/singleton.php" target="_blank">
+                                <?php echo "19.2 - Singleton pattern"; ?>
+                            </a>
+                        </li>
 
 
 
@@ -745,6 +750,10 @@
                                 <?php echo "26.6 - Working with Jason's"; ?>
                             </a>
                         </li>
+
+
+
+                        
 
 
                     </ul>
