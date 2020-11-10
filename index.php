@@ -630,6 +630,10 @@
                                 <?php echo "19.2 - Singleton pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/3/singleton2.php" target="_blank">
+                                <?php echo "19.3 - Some more discussion on the singleton pattern"; ?>
+                            </a>
+                        </li>
 
 
 
