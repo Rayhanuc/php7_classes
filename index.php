@@ -638,6 +638,10 @@
                                 <?php echo "19.4 - Adapter pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/5/decorator.php" target="_blank">
+                                <?php echo "19.5 - Decorator pattern"; ?>
+                            </a>
+                        </li>
 
 
 
