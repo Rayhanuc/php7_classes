@@ -634,6 +634,10 @@
                                 <?php echo "19.3 - Some more discussion on the singleton pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/4/adapter.php" target="_blank">
+                                <?php echo "19.4 - Adapter pattern"; ?>
+                            </a>
+                        </li>
 
 
 
