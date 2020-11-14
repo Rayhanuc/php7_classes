@@ -642,6 +642,10 @@
                                 <?php echo "19.5 - Decorator pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/6/factory.php" target="_blank">
+                                <?php echo "19.6 - Factory pattern"; ?>
+                            </a>
+                        </li>
 
 
 
