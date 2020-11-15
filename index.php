@@ -646,6 +646,10 @@
                                 <?php echo "19.6 - Factory pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/7/abstract-factory.php" target="_blank">
+                                <?php echo "19.7 - Abstract factory pattern"; ?>
+                            </a>
+                        </li>
 
 
 
