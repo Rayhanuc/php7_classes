@@ -650,6 +650,10 @@
                                 <?php echo "19.7 - Abstract factory pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/8/abstract-factory-more.php" target="_blank">
+                                <?php echo "19.8 - Some more discussion on abstract factory pattern"; ?>
+                            </a>
+                        </li>
 
 
 
