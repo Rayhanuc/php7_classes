@@ -654,6 +654,10 @@
                                 <?php echo "19.8 - Some more discussion on abstract factory pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/9/facade.php" target="_blank">
+                                <?php echo "19.9 - Faced pattern"; ?>
+                            </a>
+                        </li>
 
 
 
