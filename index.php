@@ -658,6 +658,10 @@
                                 <?php echo "19.9 - Faced pattern"; ?>
                             </a>
                         </li>
+                        <li><a href="19.designpattern/10/strategy.php" target="_blank">
+                                <?php echo "19.10 - Strategy pattern"; ?>
+                            </a>
+                        </li>
 
 
 
