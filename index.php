@@ -31,204 +31,204 @@
             <div class="col-md-12">
                 <div class="header-menu">
                     <ul>
-                        <h1 class="chapter"><?php echo "Chapter 1: ১ - পিএইচপির প্রাথমিক বিষয়সমূহ"; ?></h1>
+                        <h1 class="chapter"><?php echo "Chapter 1: 1 - Basics of PHP"; ?></h1>
 
-                        <li><a href="class-1/class-1.php" target="_blank"><?php echo "১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
-                        <li><a href="class-2/class-2.php" target="_blank"><?php echo "১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
-                        <li><a href="class-3/class-3.php" target="_blank"><?php echo "১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
-                        <li><a href="class-4/class-4.php" target="_blank"><?php echo "১.৪ - পিএইচপিতে আউটপুট প্রিন্ট করা নিয়ে বিস্তারিত" ?></a></li>
-                        <li><a href="class-5/class-5.php" target="_blank"><?php echo "১.৫ - উইন্ডোজের জন্য ভিজ্যুয়াল স্টুডিও তে কোডরানার ফিক্স করা (পিএইচপি নট ফাউন্ড)" ?></a></li>
-                        <li><a href="class-6/class-6.php" target="_blank"><?php echo "১.৬ - উইন্ডোজের জন্য পিএইচপিস্টর্মে তে কোডরানার ফিক্স করা" ?></a></li>
-                        <li><a href="class-7/class-7.php" target="_blank"><?php echo "১.৭ - পিএইচপিতে যোগ বিয়োগ গুন ভাগ" ?></a></li>
-                        <li><a href="class-8/class-8.php" target="_blank"><?php echo "১.৮ - ++ এবং -- নিয়ে আরও কিছু কথা" ?></a></li>
-                        <li><a href="class-9/class-9.php" target="_blank"><?php echo "১.৯ - বিভিন্ন রকমের নাম্বার সিস্টেম নিয়ে আলোচনা" ?></a></li>
-                        <li><a href="class-10/class-10.php" target="_blank"><?php echo "১.১০ - প্রিন্টএফ ফাংশনের জাদু" ?></a></li>
-                        <li><a href="class-11/class-11.php" target="_blank"><?php echo "১.১১ - sprintf নিয়ে কিছু কথা" ?></a></li>
-                        <li><a href="class-12/class-12.php" target="_blank"><?php echo "১.১২ - পিএইচপিতে কন্ডিশন (লজিক) এবং লজিকাল অপারেটর নিয়ে আলোচনা" ?></a></li>
-                        <li><a href="class-13/class-13.php" target="_blank"><?php echo "১.১৩ - ইফ এলস, লিপ ইয়ার এবং কিভাবে জটিল কন্ডিশন গুলো শর্টকাটে লেখা যায়" ?></a></li>
-                        <li><a href="class-14/class-14.php" target="_blank"><?php echo "১.১৪ - নেস্টেড ইফ এলস এবং কোডের রিডেবিলিটি" ?></a></li>
-                        <li><a href="class-15/class-15.php" target="_blank"><?php echo "১.১৫ - পিএইচপিতে টার্নারী অপারেটর এবং নেস্টেড টার্নারী অপারেটর নিয়ে কাজ করা" ?></a></li>
-                        <li><a href="class-16/class-16.php" target="_blank"><?php echo "১.১৬ - কন্ডিশন চেক করার আরেকটি উপায় - সুইচকেস" ?></a></li>
-                        <li><a href="class-17/class-17.php" target="_blank"><?php echo "১.১৭ - সুইচকেস নিয়ে আরও কথা" ?></a></li>
-                        <li><a href="class-18/class-18.php" target="_blank"><?php echo "১.১৮ - সুইচ কেসের একটা মজার ইস্যু" ?></a></li>
-                        <li><a href="class-19/class-19.php" target="_blank"><?php echo "১.১৯ - পিএইচপিতে অপারেটর প্রিসিডেন্স - কে আর আগে রান করে" ?></a></li>
+                        <li><a href="class-1/class-1.php" target="_blank"><?php echo "1.1 - PHP Development Environment" ?></a></li>
+                        <li><a href="class-2/class-2.php" target="_blank"><?php echo "1.2 - Variable Introduction" ?></a></li>
+                        <li><a href="class-3/class-3.php" target="_blank"><?php echo "1.3 - More talk about variables, constants and comments" ?></a></li>
+                        <li><a href="class-4/class-4.php" target="_blank"><?php echo "1.4 - Details about printing output in PHP" ?></a></li>
+                        <li><a href="class-5/class-5.php" target="_blank"><?php echo "1.5 - Fixing Kodranar in Visual Studio for Windows (PHP not found)" ?></a></li>
+                        <li><a href="class-6/class-6.php" target="_blank"><?php echo "1.6 - Fixing Codran in PHPstorm for Windows" ?></a></li>
+                        <li><a href="class-7/class-7.php" target="_blank"><?php echo "1.7 - Addition Subtraction Multiplication in PHP" ?></a></li>
+                        <li><a href="class-8/class-8.php" target="_blank"><?php echo "1.8 - ++ and - more" ?></a></li>
+                        <li><a href="class-9/class-9.php" target="_blank"><?php echo "1.9 - Discussion of different number systems" ?></a></li>
+                        <li><a href="class-10/class-10.php" target="_blank"><?php echo "1.10 - The magic of printf function" ?></a></li>
+                        <li><a href="class-11/class-11.php" target="_blank"><?php echo "1.11 - Something about sprintf" ?></a></li>
+                        <li><a href="class-12/class-12.php" target="_blank"><?php echo "1.12 - Discussion of Conditions (Logic) and Logical Operators in PHP" ?></a></li>
+                        <li><a href="class-13/class-13.php" target="_blank"><?php echo "1.13 - If Else, Leap Year and how to write complex conditions in shortcuts" ?></a></li>
+                        <li><a href="class-14/class-14.php" target="_blank"><?php echo "1.14 - Nested ifs and code readability" ?></a></li>
+                        <li><a href="class-15/class-15.php" target="_blank"><?php echo "1.15 - Working with ternary operators and nested ternary operators in PHP" ?></a></li>
+                        <li><a href="class-16/class-16.php" target="_blank"><?php echo "1.16 - Another way to check the condition - switchcase" ?></a></li>
+                        <li><a href="class-17/class-17.php" target="_blank"><?php echo "1.17 - More on the switchcase" ?></a></li>
+                        <li><a href="class-18/class-18.php" target="_blank"><?php echo "1.18 - An interesting issue of the switch case" ?></a></li>
+                        <li><a href="class-19/class-19.php" target="_blank"><?php echo "1.19 - Operator Presidency in PHP - who runs earlier" ?></a></li>
                         <li>
                             <a href="class-20/class-20.php" target="_blank">
-                                <?php echo "১.২০ - পিএইচপিতে কন্ট্রোল স্ট্রাকচারের অল্টারনেটিভ সিনট্যাক্স নিয়ে আলোচনা" ?>
+                                <?php echo "1.20 - Discusses Alternative Syntaxes of Control Structures in PHP" ?>
                             </a>
                         </li>
                         <li><a href="class-21/class-21.php" target="_blank">
-                                <?php echo "১.২১ - টার্নারি অপারেটর নিয়ে কিছু জিনিস পরিষ্কার করা" ?>
+                                <?php echo "1.21 - Clear some things about the ternary operator" ?>
                             </a>
                         </li>
                         <li><a href="class-22/class-22.php" target="_blank">
-                                <?php echo "১.২২ - বিভিন্ন রকম লুপের সাথে পরিচয়" ?>
+                                <?php echo "1.22 - Introduction to different types of loops" ?>
                             </a>
                         </li>
                         <li><a href="class-23/class-23.php" target="_blank">
-                                <?php echo "১.২৩ - ফর লুপে মাল্টিপল স্টেপিং" ?>
+                                <?php echo "1.23 - Multiple stepping for loop" ?>
                             </a>
                         </li>
                         <li><a href="class-24/class-24.php" target="_blank">
-                                <?php echo "১.২৪ - ফর লুপ দিয়ে কোন নাম্বারের ফ্যাক্টোরিয়াল বের করা" ?>
+                                <?php echo "1.24 - Find the factorial of any number with for loop" ?>
                             </a>
                         </li>
                         <li><a href="class-25/class-25.php" target="_blank">
-                                <?php echo "১.২৫ - স্মার্ট কোডিং ভার্সেস ডাম্ব কোডিং - কেন নিজের কোড নিজে রিভিউ করা প্রয়োজন" ?>
+                                <?php echo "1.25 - Smart coding versus dumb coding - why you need to review your own code" ?>
                             </a>
                         </li>
                         <li><a href="class-26/class-26.php" target="_blank">
-                                <?php echo "১.২৬ - ফর লুপে মাল্টিপল স্টেপিং নিয়ে আরও কিছু কথা" ?>
+                                <?php echo "1.26 - More on Multiple Stepping in the Loop" ?>
                             </a>
                         </li>
                         <li><a href="class-27/class-27.php" target="_blank">
-                                <?php echo "১.২৭ - হোয়াইল লুপে ++ নিয়ে যেটা মাথায় রাখতে হবে" ; ?>
+                                <?php echo "1.27 - with white loop ++ to keep in mind" ; ?>
                             </a>
                         </li>
                         <li><a href="class-28/class-28.php" target="_blank">
-                                <?php echo "১.২৮ - লুপের মাঝে কন্টিনিউ এবং ব্রেক" ; ?>
+                                <?php echo "1.28 - Continue and break between loops" ; ?>
                             </a>
                         </li>
                         <li><a href="class-29/class-29.php" target="_blank">
-                                <?php echo "১.২৯ - লুপ দিয়ে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?>
+                                <?php echo "1.29 - Printing Fibonacci series with loop" ; ?>
                             </a>
                         </li>
                         <li><a href="class-30/class-30.php" target="_blank">
-                                <?php echo "১.৩০ - স্পেসশিপ অপারেটর" ; ?>
+                                <?php echo "1.30 - Spaceship operator" ; ?>
                             </a>
                         </li>
                         <li><a href="class-31/class-31.php" target="_blank">
-                                <?php echo "১.৩১ - নাল কোলেস অপারেটর" ; ?>
+                                <?php echo "1.31 - Null Coles Operator" ; ?>
                             </a>
                         </li>
 
                         <!-- Chapter 2 link started from here -->
-                        <h1 class="chapter"><?php echo "Chapter 2: ২ - ফাংশন"; ?></h1>
+                        <h1 class="chapter"><?php echo "Chapter 2: 2 - Functions"; ?></h1>
                         <li><a href="class-2.1/class-2.1.php" target="_blank">
-                                <?php echo "২.১ - ফাংশন কি এবং কিভাবে লিখতে হয়" ; ?>
+                                <?php echo "2.1 - What is a function and how to write it" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.2/class-2.2.php" target="_blank">
-                                <?php echo "২.২ - ফাংশন প্যারামিটারের টাইপ হিন্টিং বা টাইপ চেক" ; ?>
+                                <?php echo "2.2 - Type hinting or type check of function parameters" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.3/class-2.3.php" target="_blank">
-                                <?php echo "২.৩ - ফাংশন প্যারামিটারের ডিফল্ট ভ্যালু বা অপশনাল প্যারামিটার" ; ?>
+                                <?php echo "2.3 - Default value or optional parameter of the function parameter" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.4/class-2.4.php" target="_blank">
-                                <?php echo "২.৪ - ফাংশনের রিটার্ন টাইপ ফিক্স করে দেয়া" ; ?>
+                                <?php echo "2.4 - Fix the return type of the function" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.5/class-2.5.php" target="_blank">
-                                <?php echo "২.৫ - ফাংশনে আনলিমিটেড আর্গুমেন্ট অ্যাক্সেপ্ট করা" ; ?>
+                                <?php echo "2.5 - Accept unlimited arguments in the function" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.6/class-2.6.php" target="_blank">
-                                <?php echo "২.৬ - একটা বড় ফাংশনকে ছোট ফাংশনে ভাগ করা" ; ?>
+                                <?php echo "2.6 - Dividing a large function into smaller functions" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.7/class-2.7.php" target="_blank">
-                                <?php echo "২.৭ - রিকার্সন এবং রিকার্সিভ ফাংশন" ; ?>
+                                <?php echo "2.7 - Recursion and recursive functions" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.8/class-2.8.php" target="_blank">
-                                <?php echo "২.৮ - রিকার্সিভ ফাংশনের সাহায্যে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?>
+                                <?php echo "2.8 - Print Fibonacci series with recursive function" ; ?>
                             </a>
                         </li>
                         <li><a href="class-2.9/index.php" target="_blank">
-                                <?php echo "২.৯ - পিএইচপিতে ভ্যারিয়েবল স্কোপ (খুবই ইম্পর্ট্যান্ট)"; ?>
+                                <?php echo "2.9 - Variable Scope in PHP (Very Important)"; ?>
                             </a>
                         </li>
                         <li><a href="class-2.10/index.php" target="_blank">
-                                <?php echo "২.১০ - রিকার্সিভ ফাংশনের সাহায্যে ফ্যাক্টোরিয়াল বের করা"; ?>
+                                <?php echo "2.10 - Factorial extraction using recursive function"; ?>
                             </a>
                         </li>
 
                         <!-- Chapter 3 link started from here -->
-                        <h1 class="chapter"><?php echo "৩ - অ্যারে"; ?></h1>
+                        <h1 class="chapter"><?php echo "3 - Array"; ?></h1>
                         <li><a href="class-3.1/index.php" target="_blank">
-                                <?php echo "৩.১ - অ্যারে পরিচিতি"; ?>
+                                <?php echo "3.1 - Array Introduction"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.2/index.php" target="_blank">
-                                <?php echo "৩.২ - অ্যারে ম্যানিপুলেশন"; ?>
+                                <?php echo "3.2 - Array Manipulation"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.3/index.php" target="_blank">
-                                <?php echo "৩.৩ - অ্যাসোসিয়েটিভ অ্যারে নিয়ে বিস্তারিত আলোচনা"; ?>
+                                <?php echo "3.3 - Detailed discussion of the associative array"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.4/index.php" target="_blank">
-                                <?php echo "৩.৪ - স্ট্রিং থেকে অ্যারে এবং অ্যারে থেকে স্ট্রিং, মাল্টিপল ডেলিমিটার"; ?>
+                                <?php echo "3.4 - String to array and array to string, multiple delimiters"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.5/index.php" target="_blank">
-                                <?php echo "৩.৫ - মাল্টিডাইমেনশনাল বা নেস্টেড অ্যারে"; ?>
+                                <?php echo "3.5 - Multidimensional or nested array"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.6/index.php" target="_blank">
-                                <?php echo "৩.৬ - অ্যাসোসিয়েটিভ অ্যারে থেকে স্ট্রিংয়ে কনভার্সন - সিরিয়ালাইজ, জেসন"; ?>
+                                <?php echo "3.6 - Conversion from Associative Array to String - Serialize, Jason"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.7/index.php" target="_blank">
-                                <?php echo "৩.৭ - কপি বাই ভ্যালু এবং কপি বাই রেফারেন্স"; ?>
+                                <?php echo "3.7 - Copy by value and copy by reference"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.8/index.php" target="_blank">
-                                <?php echo "৩.৮ - অ্যাসোসিয়েটিভ অ্যারে থেকে ডেটা রিমুভ করা"; ?>
+                                <?php echo "3.8 - Removing data from associative arrays"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.9/index.php" target="_blank">
-                                <?php echo "৩.৯ - এম্পটি ভ্যালু নিয়ে আলোচনা (ইম্পর্ট্যান্ট)"; ?>
+                                <?php echo "3.9 - Discussing Empty Value (Important)"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.10/index.php" target="_blank">
-                                <?php echo "৩.১০ - মূল অ্যারে ঠিক রেখে অ্যারে থেকে কিছু ডেটা এক্সট্রাক্ট করা"; ?>
+                                <?php echo "3.10 - Extract some data from the array by keeping the original array straight"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.11/index.php" target="_blank">
-                                <?php echo "৩.১১ - অ্যারেকে কাটাকাটি করা"; ?>
+                                <?php echo "3.11 - Arranging"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.12/index.php" target="_blank">
-                                <?php echo "৩.১২ - কয়েকটি অ্যারে কে একসাথে যোগ করা (খুবই ইম্পর্ট্যান্ট)"; ?>
+                                <?php echo "3.12 - Adding several arrays together (very important)"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.13/index.php" target="_blank">
-                                <?php echo "৩.১৩ - ইনডেক্সড এবং অ্যাসোসিয়েটেড অ্যারে সর্টিং"; ?>
+                                <?php echo "3.13 - Indexed and Associated Array Sorting"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.14/index.php" target="_blank">
-                                <?php echo "৩.১৪ - ইনডেক্সড এবং অ্যাসোসিয়েটেড অ্যারেতে সার্চ করা"; ?>
+                                <?php echo "3.14 - Searching in Indexed and Associated Arrays"; ?>
                             </a>
                         </li>
                         <li><a href="class-3.15/index.php" target="_blank">
-                                <?php echo "৩.১৫ - দুইটি ইনডেক্সড এবং অ্যাসোসিয়েটেড অ্যারের ডিফারেন্স এবং ইন্টারসেকশন"; ?>
+                                <?php echo "৩3.15 - Differences and Intersections of Two Indexed and Associated Arrays"; ?>
                             </a>
                         </li>
                         <li><a href="3.16.php" target="_blank">
-                                <?php echo "৩.১৬ - অ্যারের ইউটিলিটি ফাংশনস - খুবই জরুরী - ওয়াক, ম্যাপ এবং ফিল্টার"; ?>
+                                <?php echo "3.16 - Array Utility Functions - Very Important - Walk, Map and Filte"; ?>
                             </a>
                         </li>
                         <li><a href="3.17.php" target="_blank">
-                                <?php echo "৩.১৭ - অ্যারের ইউটিলিটি ফাংশনস - খুবই জরুরী - অ্যারে রিডিউস"; ?>
+                                <?php echo "3.17 - Array Utility Functions - Very Important - Array Reduces"; ?>
                             </a>
                         </li>
                         <li><a href="3.18.php" target="_blank">
-                                <?php echo "৩.১৮ - অ্যারে থেকে ভ্যারিয়েবলে ডেটা নেয়ার জন্য লিস্ট ফাংশনের ব্যবহার"; ?>
+                                <?php echo "3.18 - Using the list function to take data from arrays to variables"; ?>
                             </a>
                         </li>
                         <li><a href="3.19.php" target="_blank">
-                                <?php echo "৩.১৯ - রেঞ্জ ফাংশনের ব্যবহার এবং স্টেপিং - খুবই ইন্টারেস্টিং"; ?>
+                                <?php echo "3.19 - Use of Range Functions and Stepping - Very Interesting"; ?>
                             </a>
                         </li>
                         <li><a href="3.20.php" target="_blank">
-                                <?php echo "৩.২০ - অ্যারে শাফল করা এবং র‍্যান্ডম নাম্বার নিয়ে আলোচনা"; ?>
+                                <?php echo "3.20 - Shuffle arrays and discuss random numbers"; ?>
                             </a>
                         </li>
                         <li><a href="3.21.php" target="_blank">
-                                <?php echo "৩.২১ - অ্যাসোসিয়েটিভ অ্যারে শাফলিং এর সমস্যা এবং সমাধান"; ?>
+                                <?php echo "3.21 - Problems and solutions of associative array shuffling"; ?>
                             </a>
                         </li>
 
